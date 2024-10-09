@@ -1,0 +1,65 @@
+.create-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+.create-button:hover {
+  transition: 300ms;
+  background-color: #0056b3;
+}
+.create-product-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+label {
+  font-weight: 100;
+  font-size: medium;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.info input {
+  width: 50dvh;
+  height: 15px;
+  padding: 8px;
+  border: 1px solid lavender;
+}
+.create {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.select select {
+  width: 53dvh;
+  height: 30px;
+}

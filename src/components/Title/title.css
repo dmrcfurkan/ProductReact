@@ -1,0 +1,7 @@
+h1{
+    text-align: center;
+    padding: 3rem;
+    font-family: Graphik Medium, sans-serif;
+    font-size: 60px;
+    background: linear-gradient(135deg, #ff8c00, #ffa500, #ffd700, #fffacd);
+}

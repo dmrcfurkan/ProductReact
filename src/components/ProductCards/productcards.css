@@ -1,0 +1,38 @@
+.images {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.wrapper-images {
+  margin: 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.product-info {
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+  font-size: x-large;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.product-info p {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-align: center;
+}
+.images:hover {
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
